@@ -11,6 +11,6 @@ $kepakaran = $_POST['kepakaran'];
 mysqli_query($connection,"insert into dosen values('$nip','$nama','$kepakaran')");
 
 // mengalihkan halaman kembali ke index.php
-header("location:index.php");
+header("location:index.php?pesan=input");
 
 ?>

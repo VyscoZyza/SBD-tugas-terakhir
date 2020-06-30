@@ -11,6 +11,6 @@ $alamat = $_POST['alamat'];
 mysqli_query($connection,"insert into mahasiswa values('$nim','$nama','$alamat')");
 
 // mengalihkan halaman kembali ke index.php
-header("location:index.php");
+header("location:index.php?pesan=input");
 
 ?>
